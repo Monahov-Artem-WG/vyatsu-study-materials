@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 
 import tools.CustomString;
 
-public class WorkWithStringPanel extends JPanel {
+public class StringPanel extends JPanel {
     private JLabel result;
     JTextField firstStringField;
     JTextField secondStringField;
@@ -15,7 +15,7 @@ public class WorkWithStringPanel extends JPanel {
 
     private String selectedMethod = "isPrefix";
 
-    public WorkWithStringPanel() {
+    public StringPanel() {
         super();
         this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
         //this.setBorder(new EmptyBorder(10, 10, 10, 10))
