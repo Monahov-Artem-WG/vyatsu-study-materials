@@ -23,9 +23,9 @@ public class WorkWithStringPanel extends JPanel {
         JButton confirmEnterButton = new JButton("Check");
         confirmEnterButton.addActionListener(this::onConfirmButtonClicked);
 
-        JLabel firstStringLabel = new JLabel("First string");
+        JLabel firstStringLabel = new JLabel("First main string");
         firstStringLabel.setMaximumSize(new Dimension(80, 20));
-        JLabel secondStringLabel = new JLabel("Second string");
+        JLabel secondStringLabel = new JLabel("Second sub string");
         secondStringLabel.setMaximumSize(new Dimension(100, 20));
 
         firstStringField = new JTextField();
