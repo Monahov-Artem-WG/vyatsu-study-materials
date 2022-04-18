@@ -1,4 +1,4 @@
-package max;
+package GUI;
 
 import javax.swing.*;
 

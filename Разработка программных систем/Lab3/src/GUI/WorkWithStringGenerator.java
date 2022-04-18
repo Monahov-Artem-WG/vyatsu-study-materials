@@ -1,10 +1,10 @@
-package max;
+package GUI;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class WorkWithStringGenerator implements Runnable {
-    private JFrame mainFrame = new JFrame("WorkWithString");
+    private final JFrame mainFrame = new JFrame("WorkWithString");
 
     @Override
     public void run() {

@@ -1,11 +1,11 @@
-package max;
+package GUI;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.util.jar.JarEntry;
-import max.tools.MyString;
+
+import tools.CustomString;
 
 public class WorkWithStringPanel extends JPanel {
     private JLabel result;
@@ -105,16 +105,16 @@ public class WorkWithStringPanel extends JPanel {
         boolean result = false;
         switch (selectedMethod) {
             case "isPrefix":
-                result = MyString.isPrefix(firstStringField.getText(), secondStringField.getText());
+                result = CustomString.isPrefix(firstStringField.getText(), secondStringField.getText());
                 break;
             case "isSuffix":
-                result = MyString.isSuffix(firstStringField.getText(), secondStringField.getText());
+                result = CustomString.isSuffix(firstStringField.getText(), secondStringField.getText());
                 break;
             case "isSubstring":
-                result = MyString.isSubstring(firstStringField.getText(), secondStringField.getText());
+                result = CustomString.isSubstring(firstStringField.getText(), secondStringField.getText());
                 break;
             case "isSubsequence":
-                result = MyString.isSubsequence(firstStringField.getText(), secondStringField.getText());
+                result = CustomString.isSubsequence(firstStringField.getText(), secondStringField.getText());
                 break;
         }
         resultMethod.setText(result ? "True" : "False");

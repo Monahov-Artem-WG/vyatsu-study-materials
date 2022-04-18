@@ -1,6 +1,6 @@
-package max.tools;
+package tools;
 
-public class MyString {
+public class CustomString {
     /**
     * Returns true, and only if, second string is prefix of first string
     * @param str First string
