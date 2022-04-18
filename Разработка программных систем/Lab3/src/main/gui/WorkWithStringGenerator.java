@@ -1,4 +1,6 @@
-package GUI;
+package main.gui;
+
+import main.gui.StringPanel;
 
 import javax.swing.*;
 import java.awt.*;

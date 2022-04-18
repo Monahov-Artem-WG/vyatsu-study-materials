@@ -1,8 +1,8 @@
-package GUI;
+package main.gui;
 
 import javax.swing.*;
 
-public class CustomGUI {
+public class Main {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new WorkWithStringGenerator());
     }
